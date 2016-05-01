@@ -1,7 +1,25 @@
 $(document).ready(function(){
-
-   $("p").click(function(event){
-      alert("Поздравляем! Вы починили код!");
-   });
+	 $(".testblock").css("fontSize","20px");
+	 $("#story").css("color","green");
+	 $("p").css("color","green").css("font-size","30px");
+     $("#story,p").css("fontWeight","bold");
+      $("#flat,#flat2").css("color","#565656").css("font-size","30px");
+      $(":input").css("width","250px").css("height","50px").css("background-color","#181818");
 
 });
+
+$().ready(function(){
+
+  $("#flat").click(function(){
+    $(this).css("font-size","1.4em");
+  });
+  $("#flat2").dblclick(function(){
+    $(this).css("font-size","1.4em");
+    $(this).css("color","red");
+  });
+
+});
+
+
+
+
