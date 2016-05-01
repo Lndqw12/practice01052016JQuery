@@ -31,6 +31,8 @@ $().ready(function(){
 	$("#but1").click(function(){alert("Вы нажали один раз на первую кнопку!");});
 });
 
+/* использование event*/
+
 $(document).ready(function(){
   
    $("#square").click(function(event){
@@ -39,6 +41,13 @@ $(document).ready(function(){
       $("#y").html(event.pageY);
    });
 
-});    
+});   
+
+$(document).ready(function(){
+   
+   $("#sold").click(function(){ $("#sold").fadeOut(3000)});
+   $("#sold2").click(function(){ $("#sold").fadeIn(3000)});
+  
+});        
 
 

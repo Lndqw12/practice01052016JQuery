@@ -28,3 +28,23 @@ margin-right:15px;
 font-size:1.2em;
 text-align:center;
 }
+
+#sold {
+	font-size:14px;
+	text-align:center;
+	color:#992;
+	width:200px;
+	height:30px;
+	margin: 0 auto;
+	background-color:#555222;
+}
+
+#sold2 {
+	font-size:14px;
+	text-align:center;
+	color:#000992;
+	width:200px;
+	height:30px;
+	margin: 0 auto;
+	border: 3px solid green;
+}
