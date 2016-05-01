@@ -5,7 +5,7 @@ $(document).ready(function(){
      $("#story,p").css("fontWeight","bold");
       $("#flat,#flat2").css("color","#565656").css("font-size","30px");
       $(":input").css("width","250px").css("height","50px").css("background-color","#181818");
-
+      $("div#wrap .part1").css("color","green").css("text-align","center");
 });
 
 $().ready(function(){
@@ -20,6 +20,25 @@ $().ready(function(){
 
 });
 
+/*$(document).ready(function(){
+  
+   $("div").mouseover(function(){$("div").css("color","green")});
+   $("div").mouseout(function(){$("div").css("color","black")});
 
+}); */
+
+$().ready(function(){
+	$("#but1").click(function(){alert("Вы нажали один раз на первую кнопку!");});
+});
+
+$(document).ready(function(){
+  
+   $("#square").click(function(event){
+      $("#coord").css("display","block");
+      $("#x").html(event.pageX);
+      $("#y").html(event.pageY);
+   });
+
+});    
 
 

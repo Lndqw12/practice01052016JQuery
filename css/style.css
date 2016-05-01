@@ -5,8 +5,26 @@
 	border: 2px solid red;
 	font-size:14px;
 
+
 }
 
 #story {
 		color:#fff;
+}
+
+#square
+{
+border:1px solid;
+width:250px;
+height:250px;
+font-size:30px;
+padding-left:30px;
+padding-top:100px;
+float:left;
+margin-right:15px;
+}
+#coord
+{
+font-size:1.2em;
+text-align:center;
 }
