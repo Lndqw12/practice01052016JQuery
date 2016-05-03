@@ -48,3 +48,16 @@ text-align:center;
 	margin: 0 auto;
 	border: 3px solid green;
 }
+
+.newbl {
+	width:500px;
+	height:700px;
+	background-color:#4D6082;
+	margin:0 auto;
+	border: 3px dotted #E7BA0A;
+}
+
+#b7,#b8,#b9,#b11,#b12 {
+	border: 1px solid #fff;
+	border-radius:3px;
+}

@@ -48,6 +48,18 @@ $(document).ready(function(){
    $("#sold").click(function(){ $("#sold").fadeOut(3000)});
    $("#sold2").click(function(){ $("#sold").fadeIn(3000)});
   
-});        
+}); 
+
+// 03/05/2016
+
+$(document).ready(function(){
+
+   $("#b7").click(function(){$("#b8").slideUp(3000)});
+   $("#b9").click(function(){$("#b8").slideDown(3000)});
+     $("#b11").click(function(){$("#b12").slideToggle(3000)});
+  
+});
+
+
 
 
