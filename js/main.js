@@ -4,7 +4,7 @@ $(document).ready(function(){
 	 $("p").css("color","green").css("font-size","30px");
      $("#story,p").css("fontWeight","bold");
       $("#flat,#flat2").css("color","#565656").css("font-size","30px");
-      $(":input").css("width","250px").css("height","50px").css("background-color","#181818");
+     // $(":input").css("width","250px").css("height","50px").css("background-color","#181818");
       $("div#wrap .part1").css("color","green").css("text-align","center");
 });
 
@@ -70,6 +70,36 @@ $(document).ready(function(){
       $("div.exe").animate({top:0,left:0},2000);
    });
 
+});
+
+$(document).ready(function(){
+
+   $("#s1").click(function(){
+      $("#fg1").html("<b>jQuery</b> - это JavaScript библиотека значительно упрощающая написание кода.");
+   });
+   $("#but2").click(function(){
+      $("#par2").html("jQuery значительно облегчает взаимодействие с DOM.");
+   });
+   $("#but3").click(function(){
+      alert($("#fg1").html());
+   });
+   $("#but4").click(function(){
+      alert($("#par2").html());
+   });
+
+}); 
+
+$(document).ready(function(){
+  
+   $("#cnop1").click(function(){
+      $("#txt1").prepend("<b>jQuery</b> - это  ");
+   });
+   $("#cnop2").click(function(){
+      $("#txt1").append(" значительно упрощающая написание кода.");
+   });
+   $("#cnop3").click(function(){
+      $("body").append("<p>Я добавленный абзац.</p>");
+   });
 });
 
 
