@@ -60,6 +60,17 @@ $(document).ready(function(){
   
 });
 
+$(document).ready(function(){
+
+   $("#b13").click(function(){
+      $("div.exe").animate({fontSize:20},2000);
+      $("div.exe").animate({top:220},2000);
+      $("div.exe").animate({fontSize:"1em"},2000);
+      $("div.exe").animate({left:320},2000);
+      $("div.exe").animate({top:0,left:0},2000);
+   });
+
+});
 
 
 
