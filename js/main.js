@@ -123,3 +123,11 @@ $(document).ready(function(){
    });
 
 });
+
+/* перетаскиваемые элементы*/
+
+$(document).ready(function() {
+  
+   $("div").draggable();
+
+});
