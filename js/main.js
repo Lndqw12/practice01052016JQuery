@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	 $(".testblock").css("fontSize","20px");
 	 $("#story").css("color","green");
-	 $("p").css("color","green").css("font-size","30px");
+	// $("p").css("color","green").css("font-size","30px");
      $("#story,p").css("fontWeight","bold");
       $("#flat,#flat2").css("color","#565656").css("font-size","30px");
      // $(":input").css("width","250px").css("height","50px").css("background-color","#181818");
@@ -102,5 +102,24 @@ $(document).ready(function(){
    });
 });
 
+$(document).ready(function(){
 
+   $("#dl").click(function(){
+       $("#dl").wrap("<b></b>");
+   });
 
+});
+
+$(document).ready(function(){
+
+   $("div.df").click(function(){
+       $("div.df").addClass("boxik");
+   });
+});
+
+$(document).ready(function(){
+   $("div.rem").click(function(){
+      $("div.df").removeClass("boxik");
+   });
+
+});

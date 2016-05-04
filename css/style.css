@@ -285,3 +285,46 @@ input #but1,#but2,#but3,#but4 {
 	      -moz-transform: scale(2);
             -o-transform: scale(2);
 }
+/* применение wrap*/
+
+#dl {
+	font-size:16px;
+	color:#234567;
+	text-align:center;
+}
+
+#para2 {
+	color: initial;
+	color: initial;
+	text-align:center;
+}
+
+.class20 {
+	width:400px;
+	height:50px;
+	border-style:solid;
+	border-color:green;
+	border-radius:4px;
+	background-color:#9756aa;
+}
+
+.df {
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+
+
+}
+.boxik {
+	text-decoration:underline;
+
+}
+
+.rem {
+	margin-top: 43px;
+	color:#000;
+}
+
+.redclass {
+	color:red;
+}
